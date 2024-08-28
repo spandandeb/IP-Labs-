@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
@@ -29,7 +29,6 @@ section h2 {
     background-color: #0073e6;
   }
 
-/* Header Styling */
 header {
     background-color: #1a73e8;
     color: #fff;
@@ -62,9 +61,9 @@ header h1 {
     background-color: #1a73e8;
 }
 
-/* Navigation Menu */
+
 nav {
-    background-color: inherit; /* Inherit the header's background color */
+    background-color: inherit; 
     margin: 0;
     padding: 0;
 }
@@ -98,7 +97,7 @@ section{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-/* Main Content */
+
 main {
     padding: 40px 20px;
     max-width: 1200px;
@@ -136,7 +135,7 @@ table, th, td {
     color: #0073e6;
   }
 
-/* Footer Styling */
+
 footer {
     background-color: #1a73e8;
     color: #fff;
