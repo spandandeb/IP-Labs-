@@ -3,38 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
-
+    <title>EduVision</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS -->
 </head>
 <body>
-    <section class="header">
+    <header>
+        <div class="header-left">
+            <img src="./images/graduate.png" alt="Company Logo" class="logo">
+            <h1>EduVision</h1>
+        </div>
         <nav>
-            <img src="images/Capture1.JPG" />
-            <div class="nav-links">
-                <ul>
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="">ABOUT US</a></li>
-                    <li><a href="">SERVICES</a></li>
-                    <li><a href="">CONTACT</a></li>
-                </ul>
-            </div>
-
+            <ul>
+                <li><a href="homepage1.html">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </nav>
-        <div class="text-box">
-            <h1>Innovative Solutions</h1>
-            <p>Empowering Businesses with Innovative Technology Solutions.<br>Your Trusted Partner in Digital Transformation and IT Excellence.</p>
-        </div>
+    </header>
 
-    </section>
-    <footer>
-        <div class="container">
-            <p>© 2024 Wipro. All rights reserved.</p>
-        </div>
-    </footer>
     
+
+    <main>
+        <section>
+            <h2>Welcome to EduVision</h2>
+            <p>Your gateway to quality education.</p>
+        </section>
+
+        <section>
+            <h2>Introduction </h2>
+            <audio controls>
+                <source src="./Spring-Flowers(chosic.com).mp3" type="audio/mpeg">
+            </audio>
+        </section>
+
+        <section>
+            <h2>Promotional Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/gGxPD68yG4M?si=cSgMPHI3Rriz_zK1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </section>
+
+        <section>
+            <h2 id="about">About Us</h2>
+            <p>EduVision is dedicated to making high-quality education accessible to everyone, everywhere. We provide innovative, personalized learning experiences designed to empower learners at every stage. Our expert educators and flexible courses help you gain the skills needed for a successful future. Join us in shaping a world where knowledge knows no boundaries.</p>
+        </section>
+
+        <section>
+            <h2>Company Details</h2>
+            <table>
+                <tr class="row1">
+                    <td>Detail</td>
+                    <td>Information</td>
+                </tr>
+                <tr >
+                    <td>Address:</td>
+                    <td>Cuffe Parade, Mumbai, India</td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td>EduVision@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Phone Number:</td>
+                    <td>+9887865432</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2 id="services">Services Offered</h2>
+            <ul>
+                <li>Online Courses</li>
+                <li>Personalized Learning Paths</li>
+                <li>Certification Programs</li>
+            </ul>
+        </section>
+        <section class="testimonials">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <blockquote>
+                    "EduVision has transformed my learning experience with their innovative teaching methods. The support and resources provided are top-notch."
+                </blockquote>
+                <cite>- Raj Chaudhari,Student</cite>
+            </div>
+            <div class="testimonial">
+                <blockquote>
+                    "The expertise and dedication of EduVision's team have greatly enhanced my academic journey. Their approach truly exceeded my expectations."
+                </blockquote>
+                <cite>- Saket Verma,College Undergrad Student</cite>
+            </div>
+        </section>
+    </main>
+
+
+    <footer id="contact">
+        <p>Email: <a href="mailto:contact@eduvision.com">contact@eduvision.com</a></p>
+        <p>Follow us on:</p>
+        <a href="https://www.facebook.com">Facebook</a> |
+        <a href="https://www.twitter.com">Twitter</a> |
+        <a href="https://www.linkedin.com">LinkedIn</a>
+        <p><strong>© 2024 EduVision</strong>, All rights reserved.</p>
+    </footer>
 </body>
 </html>
